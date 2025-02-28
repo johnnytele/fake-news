@@ -49,7 +49,7 @@ export default function ArticlePage() {
     return (
       <>
       <header className="bg-gray-100 py-4 flex items-center justify-center">
-      <img src="/anvil.svg" className="h-12 w-12 mr-2 align-middle" alt="Forged News Logo" />
+      <Image src="/anvil.svg" className="h-12 w-12 mr-2 align-middle" alt="Forged News Logo" />
       <h1 className="text-center scroll-m-20 text-4xl italic font-extrabold tracking-tight lg:text-5xl">
         Forged News
       </h1>
@@ -69,7 +69,7 @@ export default function ArticlePage() {
     </div>
 
     <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-      Forged News is a great place to get an article that you'll want to share with a friend!
+      Forged News is a great place to get an article that you&apos;ll want to share with a friend!
     </p>
 
     <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
