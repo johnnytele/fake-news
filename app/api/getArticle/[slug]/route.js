@@ -15,7 +15,7 @@ export async function GET(r, { params }) {
 
     // Convert id to ObjectId
     const article = await db.collection("articles").findOne(
-      new ObjectId(slug)
+      {_id: new ObjectId(slug)}
     );
 
 
