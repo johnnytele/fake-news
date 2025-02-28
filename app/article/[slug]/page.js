@@ -49,7 +49,7 @@ export default function ArticlePage() {
     return (
       <>
       <header className="bg-gray-100 py-4 flex items-center justify-center">
-      <Image src="/anvil.svg" className="h-12 w-12 mr-2 align-middle" alt="Forged News Logo" />
+      <img src="/anvil.svg" className="h-12 w-12 mr-2 align-middle" alt="Forged News Logo" />
       <h1 className="text-center scroll-m-20 text-4xl italic font-extrabold tracking-tight lg:text-5xl">
         Forged News
       </h1>
